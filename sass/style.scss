@@ -1,0 +1,41 @@
+// Colors
+@import "partials/colors.scss";
+
+// Header
+@import "partials/header.scss";
+
+// Layout
+@import "partials/layout.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    font-family: 'Sora' , sans-serif;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: $prymary-normal;
+}
+
+button {
+    font-family: 'Sora' , sans-serif;
+    cursor: pointer;
+}
+
+svg{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
